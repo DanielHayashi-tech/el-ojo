@@ -1,0 +1,27 @@
+Your project default Compute Engine zone has been set to [me-central1-a].
+You can change it by running [gcloud config set compute/zone NAME].
+
+Your project default Compute Engine region has been set to [me-central1].
+You can change it by running [gcloud config set compute/region NAME].
+
+Created a default .boto configuration file at [/Users/dhayashi/.boto]. See this file and
+[https://cloud.google.com/storage/docs/gsutil/commands/config] for more
+information about configuring Google Cloud Storage.
+Your Google Cloud SDK is configured and ready to use!
+
+* Commands that require authentication will use green.dandev@gmail.com by default
+* Commands will reference project `el-ojo-id-1999` by default
+* Compute Engine commands will use region `me-central1` by default
+* Compute Engine commands will use zone `me-central1-a` by default
+
+Run `gcloud help config` to learn how to change individual settings
+
+This gcloud configuration is called [default]. You can create additional configurations if you work with multiple accounts and/or projects.
+Run `gcloud topic configurations` to learn more.
+
+Some things to try next:
+
+* Run `gcloud --help` to see the Cloud Platform services you can interact with. And run `gcloud help COMMAND` to get help on any gcloud command.
+* Run `gcloud topic --help` to learn about advanced features of the SDK like arg files and output formatting
+* Run `gcloud cheat-sheet` to see a roster of go-to `gcloud` commands.
+
