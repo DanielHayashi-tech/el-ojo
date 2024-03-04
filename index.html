@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Container Outline</title>
+<style>
+  .container {
+    border: 2px solid #333; /* Adds a border to each container */
+    margin: 8px; /* Adds some space between the containers */
+    padding: 16px; /* Adds some space inside the containers */
+    border-radius: 8px; /* Rounds the corners of the containers */
+  }
+
+  #header, #footer {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+  }
+
+  #main {
+    background-color: #f2f2f2; /* Light grey background */
+  }
+
+  #sidebar {
+    background-color: #ddd; /* Grey background */
+  }
+
+  /* Responsive layout - makes the sidebar and the main content stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    #sidebar, #main {
+      width: 100%;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div id="header" class="container">
+  <h1>Header</h1>
+</div>
+
+<div id="main" class="container">
+  <h2>Main Content</h2>
+  <p>This is the main content area.</p>
+</div>
+
+<div id="sidebar" class="container">
+  <h3>Sidebar</h3>
+  <p>This is the sidebar area.</p>
+</div>
+
+<div id="footer" class="container">
+  <h4>Footer</h4>
+  <p>This is the footer area.</p>
+</div>
+
+</body>
+</html>
