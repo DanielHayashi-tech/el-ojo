@@ -1,0 +1,20 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styles for containers */
+  .container {
+    border: 2px solid #333;
+    margin: 8px;
+    padding: 16px;
+    border-radius: 8px;
+  }
+  
+  /* ... more CSS ... */
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    /* Adjustments for mobile */
+  }
+  
