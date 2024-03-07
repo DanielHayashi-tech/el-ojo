@@ -1,31 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Container Outline</title>
-<link rel="stylesheet" href="static/css/style.css">
-</head>
-<body>
+{% extends 'base.html' %}
 
-<div id="header" class="container">
-  <h1>Header</h1>
-</div>
+{% block title %}Home Page{% endblock %}
 
-<div id="main" class="container">
-  <h2>Main Content</h2>
-  <p>This is the main content area.</p>
-</div>
+{% block header %}
+  <!-- Specific header for Home -->
+{% endblock %}
 
-<div id="sidebar" class="container">
-  <h3>Sidebar</h3>
-  <p>This is the sidebar area.</p>
-</div>
+{% block content %}
+  <!-- Specific content for Home -->
+{% endblock %}
 
-<div id="footer" class="container">
-  <h4>Footer</h4>
-  <p>This is the footer area.</p>
-</div>
-
-</body>
-</html>
+{% block footer %}
+  <!-- Specific footer for Home -->
+{% endblock %}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{% block title %}Container Outline{% endblock %}</title>
+<style>
+  /* Your CSS styles go here */
+</style>
+</head>
+<body>
+
+<div id="header" class="container">
+  {% block header %}
+  <h1>Header</h1>
+  {% endblock %}
+</div>
+
+<div id="main" class="container">
+  {% block main %}
+  <h2>Main Content</h2>
+  <p>This is the placeholder for main content area.</p>
+  {% endblock %}
+</div>
+
+<div id="sidebar" class="container">
+  {% block sidebar %}
+  <h3>Sidebar</h3>
+  <p>This is the placeholder for sidebar area.</p>
+  {% endblock %}
+</div>
+
+<div id="footer" class="container">
+  {% block footer %}
+  <h4>Footer</h4>
+  <p>This is the placeholder for footer area.</p>
+  {% endblock %}
+</div>
+
+</body>
+</html>

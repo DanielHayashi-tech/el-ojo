@@ -1,31 +1,20 @@
+/* General styles */
 body {
-  font-family: Arial, sans-serif;
-}
-
-/* Styles for containers */
-.container {
-  border: 2px solid #333; /* Adds a border to each container */
-  margin: 8px; /* Adds some space between the containers */
-  padding: 16px; /* Adds some space inside the containers */
-  border-radius: 8px; /* Rounds the corners of the containers */
-}
-
-#header, #footer {
-  background-color: #4CAF50; /* Green background */
-  color: white; /* White text */
-}
-
-#main {
-  background-color: #f2f2f2; /* Light grey background */
-}
-
-#sidebar {
-  background-color: #ddd; /* Grey background */
-}
-
-/* Responsive styles */
-@media (max-width: 600px) {
-  #sidebar, #main {
-    width: 100%;
+    font-family: Arial, sans-serif;
   }
-}
+  
+  /* Styles for containers */
+  .container {
+    border: 2px solid #333;
+    margin: 8px;
+    padding: 16px;
+    border-radius: 8px;
+  }
+  
+  /* ... more CSS ... */
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    /* Adjustments for mobile */
+  }
+  
